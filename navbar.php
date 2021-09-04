@@ -14,7 +14,7 @@
                 <a class="nav-link" href="createuser.php" style="color : #C0392B;"><b>Create User</b></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="userbalance.php" style="color : #C0392B;"><b>User Account Balance</b></a>
+                <a class="nav-link" href="userbalance.php" style="color : #C0392B;"><b>Customers Account</b></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="transfermoney.php" style="color : #C0392B;"><b>Make Transaction</b></a>

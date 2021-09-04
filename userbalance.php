@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transfer Money</title>
+    <title>All Accounts</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/table.css">
     <link rel="stylesheet" type="text/css" href="css/navbar.css">
@@ -21,7 +21,7 @@
 ?>
 
 <div class="container">
-        <h2 class="text-center pt-4" style="color : black;">Users Account Balance</h2>
+        <h2 class="text-center pt-4" style="color : black;">Customers Account</h2>
         <br>
             <div class="row">
                 <div class="col">
