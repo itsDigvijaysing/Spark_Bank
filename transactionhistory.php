@@ -44,11 +44,11 @@
         ?>
 
             <tr style="color : black;">
-            <td class="py-2"><?php echo $rows['sno']; ?></td>
-            <td class="py-2"><?php echo $rows['sender']; ?></td>
-            <td class="py-2"><?php echo $rows['receiver']; ?></td>
-            <td class="py-2"><?php echo $rows['balance']; ?> </td>
-            <td class="py-2"><?php echo $rows['datetime']; ?> </td>
+            <td class="py-2"><?php echo htmlspecialchars($rows['sno']); ?></td>
+            <td class="py-2"><?php echo htmlspecialchars($rows['sender']); ?></td>
+            <td class="py-2"><?php echo htmlspecialchars($rows['receiver']); ?></td>
+            <td class="py-2"><?php echo htmlspecialchars($rows['balance']); ?> </td>
+            <td class="py-2"><?php echo htmlspecialchars($rows['datetime']); ?> </td>
                 
         <?php
             }

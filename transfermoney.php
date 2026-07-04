@@ -52,11 +52,11 @@
                     while($rows=mysqli_fetch_assoc($result)){
                 ?>
                     <tr style="color : black;">
-                        <td class="py-2"><?php echo $rows['id'] ?></td>
-                        <td class="py-2"><?php echo $rows['name']?></td>
-                        <td class="py-2"><?php echo $rows['email']?></td>
-                        <td class="py-2"><?php echo $rows['balance']?></td>
-                        <td><a href="selecteduserdetail.php?id= <?php echo $rows['id'] ;?>"> <button type="button" class="btn" style="background-color : #71C9CE;">Transact</button></a></td> 
+                        <td class="py-2"><?php echo htmlspecialchars($rows['id']); ?></td>
+                        <td class="py-2"><?php echo htmlspecialchars($rows['name']); ?></td>
+                        <td class="py-2"><?php echo htmlspecialchars($rows['email']); ?></td>
+                        <td class="py-2"><?php echo htmlspecialchars($rows['balance']); ?></td>
+                        <td><a href="selecteduserdetail.php?id=<?php echo urlencode($rows['id']); ?>"> <button type="button" class="btn" style="background-color : #71C9CE;">Transact</button></a></td> 
                     </tr>
                 <?php
                     }

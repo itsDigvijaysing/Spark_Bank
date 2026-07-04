@@ -41,9 +41,9 @@
                 ?>
                     <tr style="color : black;">
                         <!-- <td class="py-2"><?php echo $rows['id'] ?></td> -->
-                        <td class="py-2"><?php echo $rows['name']?></td>
-                        <td class="py-2"><?php echo $rows['email']?></td>
-                        <td class="py-2"><?php echo $rows['balance']?></td>
+                        <td class="py-2"><?php echo htmlspecialchars($rows['name']); ?></td>
+                        <td class="py-2"><?php echo htmlspecialchars($rows['email']); ?></td>
+                        <td class="py-2"><?php echo htmlspecialchars($rows['balance']); ?></td>
                     </tr>
                 <?php
                     }
